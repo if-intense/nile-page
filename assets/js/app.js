@@ -32,7 +32,7 @@ var vm = new Vue ({
         capabilities: [
             {number: 1, text: 'Faire des réductions de temps et de coûts. Les seuls coûts sont les frais de chats d\'exposition et de négociation.', image: '../assets/img/img014.png'},
             {number: 2, text: 'Être mis en relation avec des sociétés à l’étranger.', image: '../assets/img/img017.png'},
-            {number: 3, text: 'Discuter de manière décontractée en utilisant des stickers !', image: '../assets/img/img016.png'},
+            {number: 3, text: 'Discuter de manière décontractée en utilisant des stickers! Vous vérifier la progression des discussions en cours', image: '../assets/img/img016.png'},
             {number: 4, text: 'Discuter dans plusieurs langues.', image: '../assets/img/flag.png'}
         ]
     }
@@ -58,7 +58,7 @@ var vm = new Vue ({
         capabilities: [
             {number: 1, text: 'Reducir el tiempo y los costes. Los únicos costes son los de la exposición y los del chat de negociación.', image: '../assets/img/img014.png'},
             {number: 2, text: 'Emparejar con empresas a nivel internacional.', image: '../assets/img/img017.png'},
-            {number: 3, text: 'Chatear de un modo informal. ¡Use stickers!', image: '../assets/img/img016.png'},
+            {number: 3, text: 'Chatear de un modo informal. ¡Use stickers! Comprobar el progreso de los chats.', image: '../assets/img/img016.png'},
             {number: 4, text: 'Chatear en varios idiomas.', image: '../assets/img/flag.png'}
         ]
     }
@@ -83,7 +83,7 @@ var vm = new Vue ({
         capabilities: [
             {number: 1, text: '节省时间和成本。开销仅仅只有展览费和磋商费。', image: '../assets/img/img014.png'},
             {number: 2, text: '与国际公司进行匹配。', image: '../assets/img/img017.png'},
-            {number: 3, text: '闲聊。使用表情包！', image: '../assets/img/img016.png'},
+            {number: 3, text: '闲聊。使用表情包！ 检查当前聊天的进度!', image: '../assets/img/img016.png'},
             {number: 4, text: '以多种语言进行聊天。', image: '../assets/img/flag.png'}
         ]
     }
