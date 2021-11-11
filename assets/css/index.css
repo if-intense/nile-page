@@ -23,6 +23,10 @@ html, body {
   height: 100%;
 }
 
+.br-on-jp {
+  display: none;
+}
+
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
@@ -53,6 +57,18 @@ iframe {
 
 .modal .modal-body {
   background-color: palevioletred;
+  height: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.modal .modal-body iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
 
@@ -624,6 +640,10 @@ footer .container ul li {
   }
 }
 @media only screen and (max-width: 576px) {
+  .br-on-jp {
+    display: block;
+  }
+
   .section02 .container h2 {
     font-size: 1.5em;
   }
